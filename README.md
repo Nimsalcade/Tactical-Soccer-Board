@@ -23,9 +23,9 @@ tactical-soccer-board/
 │   ├── players.js
 │   └── tools.js
 ├── assets/
-│   └── soccer-ball.svg
+   └── soccer-ball.svg
 
-`
+```
 
 ## How to Run
 ### Prerequisites
