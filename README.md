@@ -12,7 +12,7 @@ The Tactical Soccer Board is a web application that provides an interactive plat
 - **Responsive Design**: The application adapts to different screen sizes and maintains a user-friendly interface.
 
 ## File Structure
-```
+
 tactical-soccer-board/
 ├── index.html
 ├── styles/
@@ -24,8 +24,8 @@ tactical-soccer-board/
 │   └── tools.js
 ├── assets/
 │   └── soccer-ball.svg
-└── done.py
-```
+
+`
 
 ## How to Run
 ### Prerequisites
