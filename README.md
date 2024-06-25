@@ -35,7 +35,7 @@ tactical-soccer-board/
 ### Steps
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/your-username/tactical-soccer-board.git
+    git clone https://github.com/Nimsalcade/Tactical-Soccer-Board.git
     ```
 2. **Navigate to the Directory**:
     ```sh
