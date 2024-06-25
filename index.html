@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tactical Soccer Board</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div id="app">
+        <div id="toolbar">
+            <button id="menu-btn">☰</button>
+            <button id="link-btn">🔗</button>
+            <button id="download-btn">⬇️</button>
+            <button id="bookmark-btn">🔖</button>
+            <button id="fullscreen-btn">🔲</button>
+            <button id="connect-btn">🔗</button>
+            <button id="hierarchy-btn">⋮</button>
+        </div>
+        <canvas id="soccer-field"></canvas>
+        <div id="player-selector">
+            <!-- Player tokens will be dynamically added here by JavaScript -->
+        </div>
+        <div id="tools">
+            <button id="text-tool">T</button>
+            <button id="line-tool">―</button>
+            <button id="arrow-tool">→</button>
+            <button id="circle-tool">○</button>
+            <button id="rectangle-tool">□</button>
+            <button id="soccer-ball">⚽</button>
+            <!-- Add this inside the #tools div -->
+            <select id="color-picker">
+                <option value="white">White</option>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+            </select>
+            <button id="undo-btn">Undo</button>
+            <button id="redo-btn">Redo</button>
+
+        </div>
+    </div>
+    <script type="module" src="scripts/app.js"></script>
+</body>
+</html>

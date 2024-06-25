@@ -1,0 +1,74 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    }
+    #app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #5a7d4f;
+    }
+    #toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #4a6d3f;
+    }
+    #toolbar button {
+    background-color: #ffd700;
+    border: none;
+    color: #000;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    #soccer-field {
+    flex-grow: 1;
+    max-height: calc(100vh - 120px);
+    }
+    #player-selector {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #4a6d3f;
+    }
+    .player-token {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    font-weight: bold;
+    cursor: move;
+    }
+    #tools {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #4a6d3f;
+    }
+    #tools button {
+    background-color: #ffd700;
+    border: none;
+    color: #000;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    /* Player token colors */
+    .player-token:nth-child(1) { background-color: #ff0000; }
+    .player-token:nth-child(2) { background-color: #ffff00; }
+    .player-token:nth-child(3) { background-color: #800080; }
+    .player-token:nth-child(4) { background-color: #00ff00; }
+    .player-token:nth-child(5) { background-color: #0000ff; }
+    .player-token:nth-child(6) { background-color: #ff0000; }
+    .player-token:nth-child(7) { background-color: #ffff00; }
+    .player-token:nth-child(8) { background-color: #800080; }
+    .player-token:nth-child(9) { background-color: #00ff00; }
+    .player-token:nth-child(10) { background-color: #0000ff; }
+    .player-token:nth-child(11) { background-color: #ff0000; }
