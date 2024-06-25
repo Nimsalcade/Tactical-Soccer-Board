@@ -13,6 +13,7 @@ The Tactical Soccer Board is a web application that provides an interactive plat
 
 ## File Structure
 
+```
 tactical-soccer-board/
 ├── index.html
 ├── styles/
@@ -23,8 +24,8 @@ tactical-soccer-board/
 │   ├── players.js
 │   └── tools.js
 ├── assets/
-   └── soccer-ball.svg
-
+│   └── soccer-ball.svg
+└
 ```
 
 ## How to Run
